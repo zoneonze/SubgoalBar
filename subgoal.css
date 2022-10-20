@@ -1,0 +1,84 @@
+#progress {
+  width: {{bar_width}}px;
+  float: left;
+  font-family: Karla, sans-serif;
+  font-size: 23px;
+  line-height: 23px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: left;
+}
+#progress #bar{
+  align-self: flex-start;
+  width: {{bar_width}}px;
+  height: 20px;
+  padding: .7em 1em;
+  border-radius: 10px;
+  background-color: {{fill_color_bg}};  
+  background-image: url({{fill_image_bg}});
+  background-repeat: no-repeat;
+  background-size: {{size_bg}}%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  flex-wrap: wrap;
+  z-index:-1;
+}
+#progress #bar::before, #progress #bar .loading, #progress #fixed {
+  content: '';
+  #background: rgba(23, 23, 23, 0.6);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -3; 
+}
+#progress #bar .loading {
+  background-color: {{fill_color}};
+  background-image: url({{fill_image}});
+  background-repeat: no-repeat;
+  background-size: {{size_bg}}%;
+  min-width: {{min_width}}%;
+  max-width: calc({{bar_width}}px + 23px);
+  color: {{fill_color_label}};
+  background-size:100%;
+  width: 2%;
+  z-index: -1;
+  display: flex;
+  padding-left: 1em;
+  align-items: center;
+  justify-content: flex-start;
+  transition: .5s all ease-in-out; 
+}
+#progress #bar .loading .amount {
+  color: {{fill_color_amount}};
+  padding-left: 1em;
+}
+#progress #bar .amount {
+  font-weight: bold; 
+}
+#progress #bar .endgame .amount {
+  z-index: 0;
+  color: {{fill_color_goal}};
+}
+#progress #fixed {
+  align-self: flex-start;
+  align-items: center;
+  padding-left: {{percent_width}}px;
+  padding-top .7em;
+  display: flex;
+  flex-wrap: wrap; 
+  z-index: -1;
+}
+#progress #fixed .percent {
+  
+  font-weight: bold; 
+}
+#progress #fixed .percent {
+  color: {{fill_color_percent}};
+}

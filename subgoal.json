@@ -1,0 +1,185 @@
+{
+  "bar_width": {
+    "type": "number",
+    "label": "Largeur de la barre",
+    "value": ""
+  },
+   "min_width": {
+    "type": "slider",
+    "label": "Largeur minimum de la barre",
+    "value": 5,
+    "min": 0,
+    "max": 100,
+    "steps": 1
+  },
+   "percent_width": {
+    "type": "slider",
+    "label": "Position pourcentage",
+    "value": 5,
+    "min": 0,
+    "max": 1000
+  },
+  "fill_color_label": {
+    "type": "colorpicker",
+    "label": "Couleur du subgoal",
+    "value": "white"
+  },
+  "fill_color_amount": {
+    "type": "colorpicker",
+    "label": "Couleur du montant actuel",
+    "value": "white"
+  },
+  "fill_color_goal": {
+    "type": "colorpicker",
+    "label": "Couleur objectif sub",
+    "value": "white"
+  },
+  "fill_color_percent": {
+    "type": "colorpicker",
+    "label": "Couleur pourcentage",
+    "value": "white"
+  },  
+  "fill_color": {
+    "type": "colorpicker",
+    "label": "Couleur de la barre de chargement",
+    "value": ""
+  },
+  "fill_color_bg": {
+    "type": "colorpicker",
+    "label": "Couleur de la barre de fond",
+    "value": ""
+  },  
+  "fill_image": {
+    "type":"text",
+    "label": "Image de la barre de chargement",
+    "value": ""
+  },
+  "fill_image_bg": {
+    "type":"text",
+    "label": "Image de fond",
+    "value": ""
+  },
+  "size_bg": {
+    "type":"text",
+    "label": "Remplissage",
+    "value": "100"
+  },
+  "num_goals": {
+    "type": "slider",
+    "label": "Nombre de Goals (Max 10)",
+    "value": 5,
+    "min": 1,
+    "max": 10,
+    "steps": 1
+  },
+  "level_1": {
+    "type": "text",
+    "label": "Titre Sub Goal 1",
+    "value": ""
+  },
+  "level_1_goal": {
+    "type": "number",
+    "label": "Sub Goal 1",
+    "value": "",
+    "steps": 1
+  },
+  "level_2": {
+    "type": "text",
+    "label": "Titre Sub Goal 2",
+    "value": ""
+  },
+  "level_2_goal": {
+    "type": "number",
+    "label": "Sub Goal 2",
+    "value": "",
+    "steps": 1
+  },
+  "level_3": {
+    "type": "text",
+    "label": "Titre Sub Goal 3",
+    "value": ""
+  },
+  "level_3_goal": {
+    "type": "number",
+    "label": "Sub Goal 3",
+    "value": "",
+    "steps": 1
+  },
+  "level_4": {
+    "type": "text",
+    "label": "Titre Sub Goal 4",
+    "value": ""
+  },
+  "level_4_goal": {
+    "type": "number",
+    "label": "Sub Goal 4",
+    "value": "",
+    "steps": 1
+  },
+  "level_5": {
+    "type": "text",
+    "label": "Titre Sub Goal 5",
+    "value": ""
+  },
+  "level_5_goal": {
+    "type": "number",
+    "label": "Sub Goal 5",
+    "value": "",
+    "steps": 1
+  },
+  "level_6": {
+    "type": "text",
+    "label": "Titre Sub Goal 6",
+    "value": ""
+  },
+  "level_6_goal": {
+    "type": "number",
+    "label": "Sub Goal 6",
+    "value": "",
+    "steps": 1
+  },
+  "level_7": {
+    "type": "text",
+    "label": "Titre Sub Goal 7",
+    "value": ""
+  },
+  "level_7_goal": {
+    "type": "number",
+    "label": "Sub Goal 7",
+    "value": "",
+    "steps": 1
+  },
+  "level_8": {
+    "type": "text",
+    "label": "Titre Sub Goal 8",
+    "value": ""
+  },
+  "level_8_goal": {
+    "type": "number",
+    "label": "Sub Goal 8",
+    "value": "",
+    "steps": 1
+  },
+  "level_9": {
+    "type": "text",
+    "label": "Titre Sub Goal 9",
+    "value": ""
+  },
+  "level_9_goal": {
+    "type": "number",
+    "label": "Sub Goal 9",
+    "value": "",
+    "steps": 1
+  },
+  "level_10": {
+    "type": "text",
+    "label": "Titre Sub Goal 10",
+    "value": ""
+  },
+  "level_10_goal": {
+    "type": "number",
+    "label": "Sub Goal 10",
+    "value": "",
+    "steps": 1
+  }
+}
